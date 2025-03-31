@@ -1,6 +1,6 @@
 
 const { PromptTemplate } = require("langchain/prompts");
-const { getHaystackContext } = require("./haystackService");
+const { getHaystackContext } = require("./hayStackService");
 
 async function optimizePrompt(data) {
   const haystackContext = await getHaystackContext();
